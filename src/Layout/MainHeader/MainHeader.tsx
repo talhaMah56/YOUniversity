@@ -1,10 +1,18 @@
 import React from "react";
-import { Outlet } from "react-router-dom";
+import { NavLink, Outlet } from "react-router-dom";
 
 export const MainHeader: React.FC = () => {
   return (
     <>
-      <p>This is The Main Header</p>
+      <nav className="main-header">
+        <NavLink to="/" className="logo">
+          YOUniversity
+        </NavLink>
+        <ul className="main-nav">
+          <li>About</li>
+          <li>Login</li>
+        </ul>
+      </nav>
       <Outlet />
     </>
   );

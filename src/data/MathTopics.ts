@@ -1,26 +1,68 @@
 export const MathTopics = [
   {
-    title: "Calculus",
-    subtopics: ["limits", "deravitives", "integrals"],
-  },
-  {
     title: "Algebra",
-    subtopics: ["limits", "deravitives", "integrals"],
+    subtopics: [
+      { title: "Limits 1", path: "limits_1" },
+      { title: "Limits 2", path: "limits_2" },
+      { title: "Deravitives", path: "deravitives" },
+      { title: "Differentiation", path: "differentiation" },
+      { title: "Integrals 1", path: "integrals_1" },
+      { title: "Integrals 2", path: "integrals_2" },
+    ],
   },
   {
     title: "Probability",
-    subtopics: ["limits", "deravitives", "integrals"],
+    subtopics: [
+      { title: "Limits 1", path: "limits_1" },
+      { title: "Limits 2", path: "limits_2" },
+      { title: "Deravitives", path: "deravitives" },
+      { title: "Differentiation", path: "differentiation" },
+      { title: "Integrals 1", path: "integrals_1" },
+      { title: "Integrals 2", path: "integrals_2" },
+    ],
   },
   {
-    title: "Trigonometery",
-    subtopics: ["limits", "deravitives", "integrals"],
+    title: "Trigonometry",
+    subtopics: [
+      { title: "Limits 1", path: "limits_1" },
+      { title: "Limits 2", path: "limits_2" },
+      { title: "Deravitives", path: "deravitives" },
+      { title: "Differentiation", path: "differentiation" },
+      { title: "Integrals 1", path: "integrals_1" },
+      { title: "Integrals 2", path: "integrals_2" },
+    ],
   },
   {
-    title: "Fraction",
-    subtopics: ["limits", "deravitives", "integrals"],
+    title: "Calculus",
+    subtopics: [
+      { title: "Limits 1", path: "limits_1" },
+      { title: "Limits 2", path: "limits_2" },
+      { title: "Deravitives", path: "deravitives" },
+      { title: "Differentiation", path: "differentiation" },
+      { title: "Integrals 1", path: "integrals_1" },
+      { title: "Integrals 2", path: "integrals_2" },
+    ],
   },
   {
     title: "Number Theory",
-    subtopics: ["limits", "deravitives", "integrals"],
+    subtopics: [
+      { title: "Limits 1", path: "limits_1" },
+      { title: "Limits 2", path: "limits_2" },
+      { title: "Deravitives", path: "deravitives" },
+      { title: "Differentiation", path: "differentiation" },
+      { title: "Integrals 1", path: "integrals_1" },
+      { title: "Integrals 2", path: "integrals_2" },
+    ],
+  },
+  {
+    title: "Fractions",
+    subtopics: [
+      { title: "Limits 1", path: "limits_1" },
+      { title: "Limits 2", path: "limits_2" },
+      { title: "Deravitives", path: "deravitives" },
+      { title: "Differentiation", path: "differentiation" },
+      { title: "Integrals 1", path: "integrals_1" },
+      { title: "Integrals 2", path: "integrals_2" },
+    ],
   },
 ];

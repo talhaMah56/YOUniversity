@@ -9,7 +9,7 @@
 }
 
 :root {
-  --primary: #071e33;
+  --primary: #071e33; /*the main middle */
   --bg-accent: #484a4d;
   --text-color: #dadce1;
   --nav-size: 6rem;
@@ -38,7 +38,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--primary);
+  background-color: var(##F2F4F3);
 
   /* Because we want the header to be fixed later */
   top: 0;
@@ -283,6 +283,10 @@ body {
 
 #lim-notation {
   width: 20rem;
+}
+
+#nav-logo {
+  width: 30rem;
 }
 
 #lil-graph{

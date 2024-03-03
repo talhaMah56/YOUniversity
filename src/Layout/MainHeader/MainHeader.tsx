@@ -7,7 +7,7 @@ export const MainHeader: React.FC = () => {
       <nav className="main-header">
         <NavLink to="/" className="logo">
           <div>
-          <img id='nav-logo' src={require("/Users/ameerabdelnasser/YOUniversity/src/images/YNV-logo-1.png")}/>
+          <img id='nav-logo' src={require("../../images/YNV-logo-1.png")}/>
           </div>
         </NavLink>
         <ul className="main-nav">

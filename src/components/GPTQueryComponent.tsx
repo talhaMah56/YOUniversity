@@ -29,8 +29,7 @@ const GPTQueryComponent: React.FC = () => {
         },
         {
           headers: {
-            'Content-Type': 'application/json',
-            Authorization: `Bearer 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`, //'go buy it yourself dumbass'//`Bearer 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`, // Use environment variable or secure storage
+            'Content-Type': 'application/json'
           },
         }
       );

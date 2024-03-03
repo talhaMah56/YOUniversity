@@ -38,7 +38,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(##F2F4F3);
+  background-color: #F2F4F3;
 
   /* Because we want the header to be fixed later */
   top: 0;

@@ -260,3 +260,27 @@ body {
 .subtopic-cards {
   padding: 0.5rem 1rem;
 }
+
+.general-text {
+  color: black;
+
+  padding: 2.5rem 2rem;
+  font-size: 2.0rem;
+}
+
+.sub-header {
+  font-size: 3rem;
+  color: #071e33;
+}
+
+#first-graph-lim1 {
+  width: 40rem;
+}
+
+#lim-notation {
+  width: 20rem;
+}
+
+#lil-graph{
+  width: 25rem;
+}

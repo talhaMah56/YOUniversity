@@ -248,3 +248,15 @@ body {
 .subtopic-description {
   padding: 1.5rem 3rem;
 }
+
+.subtopic-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 2rem;
+  padding: 0 2rem;
+}
+
+.subtopic-cards {
+  padding: 0.5rem 1rem;
+}

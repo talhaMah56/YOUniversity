@@ -1,7 +1,6 @@
 import React from "react";
 import { MathTopics } from "../../data/MathTopics";
 import { CardComponent } from "../../UI";
-import { Routes } from "react-router-dom";
 
 export const MathScreen: React.FC = () => {
   return (
@@ -20,7 +19,7 @@ export const MathScreen: React.FC = () => {
               <p>hello</p>
               <ul>
                 {item.subtopics.map((subtopic) => (
-                  <li key={subtopic}>{subtopic}</li>
+                  <li key={subtopic.title}>{subtopic.title}</li>
                 ))}
               </ul>
             </CardComponent>

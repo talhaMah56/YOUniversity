@@ -323,5 +323,24 @@ body {
 }
 
 .gpt-box {
-  margin-left: 100frem;
+  margin-left: 10rem;
+}
+
+.gpt-box {
+  margin-left: 10rem;
+}
+
+
+.text {
+  font-size: 4rem;
+}
+
+.box-size{
+  width: 24rem;
+  height: 7rem;
+
+}
+
+input::placeholder {
+  font: 2.25rem/3 sans-serif;
 }

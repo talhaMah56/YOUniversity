@@ -30,7 +30,7 @@ const GPTQueryComponent: React.FC = () => {
         {
           headers: {
             'Content-Type': 'application/json',
-            Authorization: `Bearer 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`, // Use environment variable or secure storage
+            Authorization: `Bearer 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`, //'go buy it yourself dumbass'//`Bearer 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`, // Use environment variable or secure storage
           },
         }
       );
@@ -70,19 +70,19 @@ const GPTQueryComponent: React.FC = () => {
   };
 
   return (
-       <div>
+      <div className='gpt-box'>
       <form onSubmit={handleSubmit}>
-        <input
+        <input className="box-size"
           type="text"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           placeholder="Enter your query for GPT"
         />
-        <button type="submit" disabled={loading}>
+        <button className="box-size" type="submit" disabled={loading}>
           Submit
         </button>
       </form>
-      <div style={{ color: 'black'}}>
+      <div className="text" style={{ color: 'black'}}>
               {response && <p >{response}</p>}
       </div>
     </div>

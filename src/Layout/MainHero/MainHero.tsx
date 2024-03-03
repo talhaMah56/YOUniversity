@@ -7,7 +7,12 @@ export const MainHero = (): JSX.Element => {
     <section className="section-hero">
       <div className="hero">
         <div className="hero-text">
-          <h1 className="heading-primary">YOUniversity</h1>
+          <h1 className="heading-primary">
+            <div>
+            
+
+            </div>
+          </h1>
           <p className="hero-description">Learn some stuff</p>
           <NavLink to="/">
             <button className="cta-button">Learn More</button>

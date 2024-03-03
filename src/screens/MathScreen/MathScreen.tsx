@@ -16,7 +16,6 @@ export const MathScreen: React.FC = () => {
               className="subtopic-description"
               path={item.title.toLowerCase()}
             >
-              <p>hello</p>
               <ul>
                 {item.subtopics.map((subtopic) => (
                   <li key={subtopic.title}>{subtopic.title}</li>

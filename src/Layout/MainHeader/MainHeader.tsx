@@ -10,7 +10,9 @@ export const MainHeader: React.FC = () => {
         </NavLink>
         <ul className="main-nav">
           <li>About</li>
-          <li>Login</li>
+          <li>
+            <NavLink to="/login">Login</NavLink>
+          </li>
         </ul>
       </nav>
       <Outlet />

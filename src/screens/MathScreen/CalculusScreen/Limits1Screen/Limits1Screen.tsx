@@ -4,12 +4,15 @@ import GPTQueryComponent from "../../../../components/GPTQueryComponent";
 export const Limits1Screen: React.FC = () => {
 
   return (
-    <>
+    <div className="limit-1-div">
+      <div>
       <h1 className="subject-screen-header">Limits</h1>
-      <div className="subject-page-grid">
         <div>
         <div className="text-lesson">
-                    <GPTQueryComponent></GPTQueryComponent>
+
+          <div className="gpt-box">
+          <GPTQueryComponent></GPTQueryComponent>
+          </div>
 
 
           <h2 className="sub-header">What is a limit?</h2>
@@ -58,6 +61,6 @@ export const Limits1Screen: React.FC = () => {
         </div>
         </div>
       </div>
-    </>
+    </div>
     );
 };

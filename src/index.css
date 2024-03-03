@@ -251,7 +251,6 @@ body {
   font-size: 5rem;
   color: black;
   text-align: center;
-  margin: 2.5rem 0;
 }
 
 .subject-page-grid {
@@ -290,7 +289,7 @@ body {
 .general-text {
   color: black;
 
-  padding: 2.5rem 2rem;
+  padding: 4rem;
   font-size: 2rem;
 }
 
@@ -313,4 +312,16 @@ body {
 
 #nav-logo {
   width: 30rem;
+}
+
+.limit-1-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-top: 2rem;
+}
+
+.gpt-box {
+  margin-left: 100frem;
 }

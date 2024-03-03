@@ -17,7 +17,7 @@ export const CalculusScreen: React.FC = () => {
             color="red"
             className="subtopic-cards"
           >
-            <p>hello from {subtopic.title}</p>
+            <p>{subtopic.title}</p>
           </CardComponent>
         ))}
       </div>
